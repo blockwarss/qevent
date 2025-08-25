@@ -1,0 +1,14 @@
+name: questevent
+main: com.nowheberg.questevent.QuestEventPlugin
+version: 1.0.0
+api-version: '1.21'
+authors: [Now-Heberg]
+description: Événement de collecte aléatoire avec top 3 et récompenses
+commands:
+  qevent:
+    description: Lance un événement de collecte
+    usage: /qevent start <durée ex: 30m, 1h30m>
+    permission: questevent.admin
+permissions:
+  questevent.admin:
+    default: op

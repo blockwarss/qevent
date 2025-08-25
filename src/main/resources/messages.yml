@@ -1,0 +1,13 @@
+# --- questevent / messages.yml ---
+# Couleurs Minecraft via &. Le préfixe sera ajouté automatiquement à chaque message.
+prefix: "&a&lꜱᴜʀᴠɪᴇ&c&lᴛɪᴋᴛᴏᴋ&f | "
+
+usage_start: "&7Usage: &f/qevent start <durée ex: 30m, 1h30m>"
+already_running: "&cUn événement est déjà en cours."
+invalid_duration: "&cDurée invalide."
+no_items: "&cAucun item configuré dans config.yml."
+started: "&aÉvénement lancé pour &f{duration}&a. Objet: &f{item}&a, objectif: &f{required}&a."
+completed_rank: "&e{player} &fa terminé &6#{place}&f en récoltant &b{required}&f {item}!"
+ended_top3: "&cFin de l'événement. Top 3: &61) {first} &62) {second} &63) {third}&f. Objet: &b{item}&f."
+time_left_broadcast: "&7Il reste &f{left}&7 pour l'événement &b{item}&7 (objectif &f{required}&7)."
+not_running: "&cAucun événement en cours."

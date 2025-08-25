@@ -1,0 +1,26 @@
+# --- questevent / config.yml ---
+# Java 21 • Paper 1.21.x
+# Liste d'items possibles et objectif (quantité à récolter par joueur).
+items:
+  - material: DIAMOND
+    required: 16
+  - material: IRON_INGOT
+    required: 64
+  - material: WHEAT
+    required: 128
+  - material: OAK_LOG
+    required: 64
+
+# Commandes de récompense. {player} sera remplacé par le pseudo.
+rewards:
+  first:
+    - "eco give {player} 5000"
+    - "give {player} diamond 5"
+  second:
+    - "eco give {player} 3000"
+  third:
+    - "eco give {player} 1000"
+
+# Annonces automatiques (toutes les X secondes) du temps restant. 0 pour désactiver.
+announcements:
+  intervalSeconds: 120
