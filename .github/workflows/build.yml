@@ -23,4 +23,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: questevent-jar
-          path: target/*-shaded.jar
+          path: target/*.jar
